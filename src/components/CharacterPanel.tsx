@@ -31,7 +31,7 @@ export function CharacterPanel({ name, level, xp, maxXp, dayProgress, dialogue }
           animate={{ opacity: 1, y: 0 }}
           className="absolute bottom-6 left-4 right-4"
         >
-          <div className="bg-[#fefcfa]/95 backdrop-blur-md border-2 border-[#342e3a]/80 rounded-lg px-4 py-3 shadow-xl">
+          <div className="bg-[#fefcfa]/95 backdrop-blur-md rounded-lg px-4 py-3 shadow-xl">
             <p className="text-[#342e3a] text-[15px] leading-relaxed font-semibold text-center">
               {dialogue}
             </p>

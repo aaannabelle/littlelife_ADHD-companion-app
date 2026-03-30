@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# LittleLife: ADHD Companion Productivity App
+*A dopamine-first productivity experience designed to reduce task paralysis*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+LittleLife is a gamified productivity app designed for neurodivergent users, especially those with ADHD. 
+Instead of focusing purely on efficiency, the app reduces the emotional barrier to starting tasks through:
+- A friendly character companion 💖
+- Main and side quests 🗒️
+- Gentle, dopamine-friendly rewards 🎉
+- Soft, minimal UI for less overwhelm
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> This is an ongoing project!
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Clone the repo:
+```bash
+git clone https://github.com/aaannabelle/littlelife_ADHD-companion-app.git
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Install dependencies:
+```bash
+npm install
 ```
+3. Run the app
+```bash
+npm run dev
+```
+4. Open in browser at http://localhost:5173 (Vite default)
+
+---
+
+**Link to Notion Case Study (ongoing)**
+```markdown
+## Case Study
+For a full breakdown of the design process and thinking behind LittleLife, see the [Notion Case Study](https://www.notion.so/ADHD-Companion-Productivity-App-Case-Study-33103a552d1780dca37fc00d821747a3?source=copy_link).
+
+---
+
+## Tech Stack
+- React + TypeScript
+- TailwindCSS
+- Vite
+
+---
+
+## Author
+Annabelle W.
+
+## License
+MIT

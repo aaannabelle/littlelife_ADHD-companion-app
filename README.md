@@ -33,7 +33,7 @@ npm run dev
 ---
 
 **Link to Notion Case Study (ongoing)**
-```markdown
+
 ## Case Study
 For a full breakdown of the design process and thinking behind LittleLife, see the [Notion Case Study](https://www.notion.so/ADHD-Companion-Productivity-App-Case-Study-33103a552d1780dca37fc00d821747a3?source=copy_link).
 

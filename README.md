@@ -1,6 +1,9 @@
 # LittleLife: ADHD Companion Productivity App
 *A dopamine-first productivity experience designed to reduce task paralysis*
 
+<img width="1577" height="942" alt="Screenshot 2026-04-01 001737" src="https://github.com/user-attachments/assets/06d3a903-11c1-4cec-be9c-119b43354c0c" />
+
+
 ---
 
 LittleLife is a gamified productivity app designed for neurodivergent users, especially those with ADHD. 
